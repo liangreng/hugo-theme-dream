@@ -2,7 +2,7 @@
 title: {{ replace .TranslationBaseName "-" " " | title }}
 date: {{ .Date }}
 lastmod: {{ .Date }}
-author: Author Name
+author: 张小宝
 cover: /img/cover.jpg
 categories: ["category1"]
 tags: ["tag1", "tag2"]
