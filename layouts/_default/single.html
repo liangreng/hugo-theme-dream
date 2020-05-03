@@ -14,8 +14,13 @@
         </h2>
       </header>
       <article style="margin-top: 2rem;">{{ .Content | emojify }}</article>
-    </section>
+<p>
+<div class="post-comment">
+    <!-- 加入评论功能 -->
+    {{ partial "comments.html" . }}
+</div>
 
+    </section>
     <footer class="ui attached segment dream-tags">
       {{ if isset .Params "tags" }}
         {{ range $tag := .Params.tags }}
